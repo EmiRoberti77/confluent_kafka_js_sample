@@ -10,7 +10,7 @@ The producer sends messages to a specified Kafka topic, and the consumer reads m
 - Graceful Shutdown: Ensures resources are cleaned up on termination (e.g., SIGTERM and SIGINT signals).
 
 ## Prerequisites
-Node.js: Ensure Node.js is installed (v14+ recommended).
+Node.js: Ensure Node.js is installed (v18+ recommended).
 Kafka Broker: A running Kafka instance (e.g., local or Confluent Cloud).
 Client Properties File: A configuration file (client.properties) containing Kafka connection settings.
 
